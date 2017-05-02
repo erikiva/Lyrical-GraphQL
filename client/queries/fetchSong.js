@@ -5,6 +5,11 @@ import gql from 'graphql-tag';
     song(id: $id){
       id
       title
+      lyrics {
+        id
+        content
+        likes
+      }
     }
   }
 `;
