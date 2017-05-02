@@ -19,7 +19,7 @@ class SongDetail extends Component {
   render() {
     return (
       <div>
-        <Link>Back</Link>
+        <Link to="/">Back</Link>
         {this.displaySong()}
       </div>
     );
